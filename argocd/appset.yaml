@@ -23,6 +23,6 @@ spec:
         # server: https://REPLACEME
       project: guestbook
       source:
-        path: ./
+        path: env/{{path.basename}}
         repoURL: https://github.com/tukak/kargo-advanced.git
-        targetRevision: env/{{path.basename}}
+        targetRevision: main
